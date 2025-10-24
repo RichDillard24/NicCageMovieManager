@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		336AF7992EABEC01007194E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336AF7812EABEC00007194E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336AF7882EABEC00007194E4;
+			remoteInfo = NicCageMovieManager;
+		};
+		336AF7A32EABEC01007194E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336AF7812EABEC00007194E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336AF7882EABEC00007194E4;
+			remoteInfo = NicCageMovieManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		336AF7892EABEC00007194E4 /* NicCageMovieManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicCageMovieManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		336AF7982EABEC01007194E4 /* NicCageMovieManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicCageMovieManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		336AF7A22EABEC01007194E4 /* NicCageMovieManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicCageMovieManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		336AF78B2EABEC00007194E4 /* NicCageMovieManager */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NicCageMovieManager;
+			sourceTree = "<group>";
+		};
+		336AF79B2EABEC01007194E4 /* NicCageMovieManagerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NicCageMovieManagerTests;
+			sourceTree = "<group>";
+		};
+		336AF7A52EABEC01007194E4 /* NicCageMovieManagerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NicCageMovieManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336AF7862EABEC00007194E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336AF7952EABEC01007194E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336AF79F2EABEC01007194E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336AF7802EABEC00007194E4 = {
+			isa = PBXGroup;
+			children = (
+				336AF78B2EABEC00007194E4 /* NicCageMovieManager */,
+				336AF79B2EABEC01007194E4 /* NicCageMovieManagerTests */,
+				336AF7A52EABEC01007194E4 /* NicCageMovieManagerUITests */,
+				336AF78A2EABEC00007194E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336AF78A2EABEC00007194E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336AF7892EABEC00007194E4 /* NicCageMovieManager.app */,
+				336AF7982EABEC01007194E4 /* NicCageMovieManagerTests.xctest */,
+				336AF7A22EABEC01007194E4 /* NicCageMovieManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336AF7882EABEC00007194E4 /* NicCageMovieManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336AF7AC2EABEC01007194E4 /* Build configuration list for PBXNativeTarget "NicCageMovieManager" */;
+			buildPhases = (
+				336AF7852EABEC00007194E4 /* Sources */,
+				336AF7862EABEC00007194E4 /* Frameworks */,
+				336AF7872EABEC00007194E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				336AF78B2EABEC00007194E4 /* NicCageMovieManager */,
+			);
+			name = NicCageMovieManager;
+			packageProductDependencies = (
+			);
+			productName = NicCageMovieManager;
+			productReference = 336AF7892EABEC00007194E4 /* NicCageMovieManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		336AF7972EABEC01007194E4 /* NicCageMovieManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336AF7AF2EABEC01007194E4 /* Build configuration list for PBXNativeTarget "NicCageMovieManagerTests" */;
+			buildPhases = (
+				336AF7942EABEC01007194E4 /* Sources */,
+				336AF7952EABEC01007194E4 /* Frameworks */,
+				336AF7962EABEC01007194E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336AF79A2EABEC01007194E4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				336AF79B2EABEC01007194E4 /* NicCageMovieManagerTests */,
+			);
+			name = NicCageMovieManagerTests;
+			packageProductDependencies = (
+			);
+			productName = NicCageMovieManagerTests;
+			productReference = 336AF7982EABEC01007194E4 /* NicCageMovieManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		336AF7A12EABEC01007194E4 /* NicCageMovieManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336AF7B22EABEC01007194E4 /* Build configuration list for PBXNativeTarget "NicCageMovieManagerUITests" */;
+			buildPhases = (
+				336AF79E2EABEC01007194E4 /* Sources */,
+				336AF79F2EABEC01007194E4 /* Frameworks */,
+				336AF7A02EABEC01007194E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336AF7A42EABEC01007194E4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				336AF7A52EABEC01007194E4 /* NicCageMovieManagerUITests */,
+			);
+			name = NicCageMovieManagerUITests;
+			packageProductDependencies = (
+			);
+			productName = NicCageMovieManagerUITests;
+			productReference = 336AF7A22EABEC01007194E4 /* NicCageMovieManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336AF7812EABEC00007194E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					336AF7882EABEC00007194E4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					336AF7972EABEC01007194E4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 336AF7882EABEC00007194E4;
+					};
+					336AF7A12EABEC01007194E4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 336AF7882EABEC00007194E4;
+					};
+				};
+			};
+			buildConfigurationList = 336AF7842EABEC00007194E4 /* Build configuration list for PBXProject "NicCageMovieManager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336AF7802EABEC00007194E4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 336AF78A2EABEC00007194E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336AF7882EABEC00007194E4 /* NicCageMovieManager */,
+				336AF7972EABEC01007194E4 /* NicCageMovieManagerTests */,
+				336AF7A12EABEC01007194E4 /* NicCageMovieManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336AF7872EABEC00007194E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336AF7962EABEC01007194E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336AF7A02EABEC01007194E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336AF7852EABEC00007194E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336AF7942EABEC01007194E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336AF79E2EABEC01007194E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		336AF79A2EABEC01007194E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336AF7882EABEC00007194E4 /* NicCageMovieManager */;
+			targetProxy = 336AF7992EABEC01007194E4 /* PBXContainerItemProxy */;
+		};
+		336AF7A42EABEC01007194E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336AF7882EABEC00007194E4 /* NicCageMovieManager */;
+			targetProxy = 336AF7A32EABEC01007194E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		336AF7AA2EABEC01007194E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		336AF7AB2EABEC01007194E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336AF7AD2EABEC01007194E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.NicCageMovieManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		336AF7AE2EABEC01007194E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.NicCageMovieManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		336AF7B02EABEC01007194E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.NicCageMovieManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NicCageMovieManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NicCageMovieManager";
+			};
+			name = Debug;
+		};
+		336AF7B12EABEC01007194E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.NicCageMovieManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NicCageMovieManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NicCageMovieManager";
+			};
+			name = Release;
+		};
+		336AF7B32EABEC01007194E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.NicCageMovieManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NicCageMovieManager;
+			};
+			name = Debug;
+		};
+		336AF7B42EABEC01007194E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.NicCageMovieManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NicCageMovieManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336AF7842EABEC00007194E4 /* Build configuration list for PBXProject "NicCageMovieManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336AF7AA2EABEC01007194E4 /* Debug */,
+				336AF7AB2EABEC01007194E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336AF7AC2EABEC01007194E4 /* Build configuration list for PBXNativeTarget "NicCageMovieManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336AF7AD2EABEC01007194E4 /* Debug */,
+				336AF7AE2EABEC01007194E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336AF7AF2EABEC01007194E4 /* Build configuration list for PBXNativeTarget "NicCageMovieManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336AF7B02EABEC01007194E4 /* Debug */,
+				336AF7B12EABEC01007194E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336AF7B22EABEC01007194E4 /* Build configuration list for PBXNativeTarget "NicCageMovieManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336AF7B32EABEC01007194E4 /* Debug */,
+				336AF7B42EABEC01007194E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 336AF7812EABEC00007194E4 /* Project object */;
+}
